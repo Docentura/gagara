@@ -1,10 +1,38 @@
 {
-  "name": "static-html",
-  "version": "1.0.0",
+  "name": "optimized-shell-page",
+  "version": "2.0.0",
+  "description": "Optimized Shell fuel card webpage with preserved visual elements, animations, and performance improvements",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "npx serve . -l 3000"
+    "dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
+  "keywords": ["shell", "fuel-card", "fleetcor", "optimized", "responsive", "react"],
   "dependencies": {
-    "serve": "^14.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
