@@ -1,0 +1,7 @@
+{
+  "name": "static-html",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "echo 'Static HTML project – nothing to run'"
+  }
+}
